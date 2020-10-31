@@ -1,0 +1,29 @@
+.body-container{
+    padding: 10px 35px 10px 35px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 1px 3px 5px 0.2px #ccc;
+    background-color: #fff !important;
+}
+
+.navbar-logo {
+    color: #1875F0 !important;
+    font-weight: 900;
+    font-size: 24px;
+    font-family:  'Roboto'
+}
+
+.search {
+ background-color: #fff !important;
+ border: 0px;
+}
+
+.input-bar {
+    width: 30%;
+    margin-left: 61px;
+
+}
+
+.nav-item-color {
+    color: #647787 !important;
+}
