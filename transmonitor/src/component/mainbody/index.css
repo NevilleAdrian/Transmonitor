@@ -1,0 +1,29 @@
+.mainbody {
+    padding: 13px;
+    background-color: #fff;
+    border: 1.4px solid #EEF8FD;
+}
+
+.admin-row {
+    padding: 30px;
+}
+
+.main-body-name {
+   color:  #787C90;
+   font-size: 9.1px;
+}
+
+.main-body-number {
+    color: #262626;
+font-size: 18px;
+}
+
+.move-right {
+    padding-right: 20px !important;
+}
+
+.font-name{
+    font-size: 14px;
+    color: #414042;
+    font-weight: 100;
+}

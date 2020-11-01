@@ -1,0 +1,47 @@
+.body-container{
+    padding: 10px 55px 10px 55px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+    z-index: 1;
+    background-color: #fff !important;
+    width: 100%;
+}
+
+.navbar-logo {
+    color: #1875F0 !important;
+    font-weight: 900;
+    font-size: 29px;
+    font-family:  'Roboto'
+}
+
+.search {
+ background-color: #fff !important;
+ border: 0px;
+ font-size: 12px;
+}
+
+.input-bar {
+    width: 30%;
+    margin-left: 11%;
+
+}
+
+.nav-item-color {
+    color: #647787 !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 46px;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+.font-reduced {
+    font-size: 12px;
+}
+

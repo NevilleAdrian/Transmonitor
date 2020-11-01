@@ -1,0 +1,72 @@
+.pad-top {
+   background-color: #F7F8FA ;
+}
+
+.secondary-button {
+    padding: 9px 30px;
+    background-color: #27AE60;
+    font-size: 12px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+.sidebar-button {
+    padding: 50px 0px 30px 10px;
+}
+
+.sidebar-item {
+    color: #647787;
+    font-size: 11px;
+    margin-left: 23px !important;
+    
+}
+
+.main {
+    color: #647787;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.pad-navbar{
+    padding-bottom:14px
+}
+
+.sidebar-button {
+    padding-left: 22px;
+}
+
+.sidebar-padding {
+
+    padding-left: 22px;
+
+}
+
+.blue-bg {
+    background-color: #E9F1FD;
+    padding: 0px 0px 0px 0px;
+    border-left: 8px solid #1875F0;
+
+}
+.normal-bg {
+    padding: 0px 0px 0px 0px;
+    border-left: 8px solid #fff;
+}
+
+.nav-container {
+    padding: 30px 55px 0px 55px;
+    background-color: #fff;
+}
+
+.nav-side {
+    padding: 10px 5px 10px 47px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pad-left{
+    padding-left: 0px;
+}
