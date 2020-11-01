@@ -8,6 +8,10 @@
     padding: 30px;
 }
 
+.other-row {
+padding: 50px;
+}
+
 .main-body-name {
    color:  #787C90;
    font-size: 9.1px;
@@ -184,4 +188,43 @@ font-size: 18px;
 
   .p-a {
       position: absolute;
+  }
+
+  .chart-area {
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .green-color{
+   color: #27AE60;
+   font-weight: 700;
+  }
+
+  .yellow-color {
+    color: #FDC203;
+   font-weight: 700;
+
+
+  }
+  .blue-color {
+    color: #1875F0;
+    font-weight: 700;
+
+  }
+
+  .pad-order {
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .pending {
+      color: #262626;
+      font-weight: 100;
+      font-size: 14px;
+  }
+
+  .border-box {
+   background-color: #fff;
+   padding: 20px;
+   height: 47%;
   }

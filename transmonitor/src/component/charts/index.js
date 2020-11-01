@@ -1,7 +1,8 @@
 import React from 'react'
 import ApexCharts from 'apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
-class ApexChart extends React.Component {
+export class ApexChart extends React.Component {
     constructor(props) {
         super(props);
 
@@ -299,27 +300,27 @@ class ApexChart extends React.Component {
                     yaxis: [{
                         y: 30,
                         borderColor: '#999',
-                        label: {
-                            show: true,
-                            text: 'Support',
-                            style: {
-                                color: "#fff",
-                                background: '#00E396'
-                            }
-                        }
+                        // label: {
+                        //     show: true,
+                        //     text: 'Support',
+                        //     style: {
+                        //         color: "#fff",
+                        //         background: '#00E396'
+                        //     }
+                        // }
                     }],
                     xaxis: [{
                         x: new Date('14 Nov 2012').getTime(),
                         borderColor: '#999',
                         yAxisIndex: 0,
-                        label: {
-                            show: true,
-                            text: 'Rally',
-                            style: {
-                                color: "#fff",
-                                background: '#775DD0'
-                            }
-                        }
+                        // label: {
+                        //     show: true,
+                        //     text: 'Rally',
+                        //     style: {
+                        //         color: "#fff",
+                        //         background: '#775DD0'
+                        //     }
+                        // }
                     }]
                 },
                 dataLabels: {
@@ -351,6 +352,7 @@ class ApexChart extends React.Component {
             },
             selection: 'one_year',
         };
+        this.date = new Date()
     }
 
 
@@ -403,46 +405,12 @@ class ApexChart extends React.Component {
             default:
         }
     }
-
+ 
 
     render() {
         return (
-
-
             <div id="chart">
-                <div class="toolbar">
-                    <button id="one_month"
-
-                        onClick={() => this.updateData('one_month')} className={(this.state.selection === 'one_month' ? 'active' : '')}>
-                        1M
-                        </button>
-                        &nbsp;
-                        <button id="six_months"
-
-                        onClick={() => this.updateData('six_months')} className={(this.state.selection === 'six_months' ? 'active' : '')}>
-                        6M
-                            </button>
-                            &nbsp;
-                            <button id="one_year"
-
-
-                        onClick={() => this.updateData('one_year')} className={(this.state.selection === 'one_year' ? 'active' : '')}>
-                        1Y
-                        </button>
-                        &nbsp;
-                        <button id="ytd"
-
-                            onClick={() => this.updateData('ytd')} className={(this.state.selection === 'ytd' ? 'active' : '')}>
-                        YTD
-                        </button>
-                        &nbsp;
-                        <button id="all"
-
-                        onClick={() => this.updateData('all')} className={(this.state.selection === 'all' ? 'active' : '')}>
-                        ALL
-                        </button>
-                </div>
-
+                <p>Today: {this.date.toDateString()}</p>
                 <div id="chart-timeline">
                     <ReactApexChart options={this.state.options} series={this.state.series} type="area" height={350} />
                 </div>

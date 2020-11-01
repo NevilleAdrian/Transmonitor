@@ -272,3 +272,21 @@ export const Dropdown = [
     'Settled',
     'Unsettled'
 ]
+
+
+export const Items = [
+    {
+        name: "Orders",
+        pending: "20",
+        reconciled: "80",
+        totalorders: "10",
+
+    },
+    {
+        name: "Payment",
+        pending: "20",
+        reconciled: "80",
+        totalorders: "10",
+
+    }
+]
