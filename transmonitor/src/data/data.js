@@ -6,6 +6,9 @@ import Wallet3 from "../assets/Wallet3.svg"
 import Radio from "../assets/Radio.svg"
 import Order from "../assets/Order.svg"
 import Order2 from "../assets/Order2.svg"
+import Yellow from "../assets/Yellow.svg"
+import Green from "../assets/GreenIcon.svg"
+import Grey from "../assets/GreyIcon.svg"
 import Order3 from "../assets/Order3.svg"
 import Profile from "../assets/Profile.svg"
 import Vw from "../assets/Vw.svg"
@@ -103,7 +106,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Pending",
-        color: "#EBC315"
+        color: Yellow
     },
     {
         image: Vw,
@@ -112,7 +115,8 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Reconciled",
-        color: "#27AE60"
+        color: Green,
+
     },
     {
         image: Vw,
@@ -121,7 +125,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Un-Reconciled",
-        color: "#C4C4C4"
+        color: Grey
     },
     {
         image: Vw,
@@ -130,7 +134,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Reconciled",
-        color: "#27AE60"
+        color: Green,
     },
     {
         image: Vw,
@@ -139,7 +143,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Pending",
-        color: "#EBC315"
+        color: Yellow
     },
     {
         image: Vw,
@@ -148,7 +152,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Un-Reconciled",
-        color: "#C4C4C4"
+        color: Grey
     },
     {
         image: Vw,
@@ -157,7 +161,7 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Pending",
-        color: "#EBC315"
+        color: Yellow
     },
     {
         image: Vw,
@@ -166,6 +170,123 @@ export const Table = [
         no: "$73430",
         time: "12:30",
         status: "Un-Reconciled",
-        color: "#C4C4C4"
+        color: Grey
     },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Un-Reconciled",
+        color: Grey
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Pending",
+        color: Yellow
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Un-Reconciled",
+        color: Grey
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Un-Reconciled",
+        color: Grey
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Reconciled",
+        color: Green,
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Settled",
+        color: Yellow
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Unsettled",
+        color: Grey
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Reconciled",
+        color: Green,
+
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Un-Reconciled",
+        color: Grey
+    },
+    {
+        image: Vw,
+        name: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        no: "$73430",
+        time: "12:30",
+        status: "Reconciled",
+        color: Green,
+    },
+]
+
+export const Dropdown = [
+    'All',
+    'Reconciled',
+    'Un-Reconciled',
+    'Settled',
+    'Unsettled'
+]
+
+
+export const Items = [
+    {
+        name: "Orders",
+        pending: "20",
+        reconciled: "80",
+        totalorders: "10",
+
+    },
+    {
+        name: "Payment",
+        pending: "20",
+        reconciled: "80",
+        totalorders: "10",
+
+    }
 ]
