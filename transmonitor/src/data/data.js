@@ -280,6 +280,9 @@ export const Items = [
         pending: "20",
         reconciled: "80",
         totalorders: "10",
+        first: "Pending Orders",
+        second: "Reconciled Orders",
+        total: "Total Orders"
 
     },
     {
@@ -287,6 +290,9 @@ export const Items = [
         pending: "20",
         reconciled: "80",
         totalorders: "10",
+        first: "Un-reconciled Payments",
+        second: "Reconciled Payments",
+        total: "Total Payments"
 
     }
 ]

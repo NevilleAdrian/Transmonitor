@@ -125,9 +125,9 @@ export default function MainBody() {
                                     <div style={{ backgroundColor: "#FDC203", width: `${item.reconciled}%`, height: "5px", borderTopRightRadius: "20px", borderBottomRightRadius: "20px" }}> </div>
 
                                 </div>
-                                <p className="pending">Pending orders: <span className="yellow-color">{item.pending}</span></p>
-                                <p className="pending">Reconciled orders: <span className="green-color">{item.reconciled}</span></p>
-                        <p className="pending">Total orders: <span className="blue-color">{item.totalorders}</span></p>
+                                <p className="pending">{item.first}: <span className="yellow-color">{item.pending}</span></p>
+                                <p className="pending">{item.second}: <span className="green-color">{item.reconciled}</span></p>
+                           <p className="pending">{item.total}: <span className="blue-color">{item.totalorders}</span></p>
 
                             </div>
                         ))}
