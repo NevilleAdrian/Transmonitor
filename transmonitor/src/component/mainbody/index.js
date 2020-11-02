@@ -118,7 +118,7 @@ export default function MainBody() {
                     </div>
                     <div className="col-md-4">
                         {Items.map((item, index) => (
-                            <div className="border-box" style={{marginTop: index === 1 ? "9%": "0px" }}>
+                            <div className="border-box" style={{marginTop: index === 1 ? "3%": "0px" }}>
                                 <h6>{item.name}</h6>
                                 <div className="d-flex pad-order">
                                     <div style={{ backgroundColor: "#27AE60", width: `${item.reconciled}%`, height: "5px", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px" }} ></div>
